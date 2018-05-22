@@ -1,0 +1,109 @@
+body{
+	background:#171717;
+	font-size:15px;
+	font-family: 'Handlee', cursive;
+}
+
+.Postcard{
+	background: white;
+	height: 300px;
+	width:500px;
+	margin: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding: 15px;
+
+}
+
+.postcard_header{
+	
+	overflow: hidden;
+		
+}
+
+.postcard_header img{
+	
+	max-width: 60px;
+	float: right;
+}
+
+.postcard_body{
+	overflow: hidden;
+	
+}
+
+input{
+	font-size: 18px;
+	font-family: 'Handlee', cursive;
+}
+
+.postcard h1{	
+	
+	margin: 0px;
+	font-size: 35px;
+}
+
+.informacion{
+	float: left;
+	width: 50%;
+
+}
+
+.datos_personales{
+	float: right;
+	width: 50%;
+	
+}
+
+.datos_personales input{
+	display: block;
+
+
+}
+
+.postcard_body input[type=text]{
+	border:none;
+	border-bottom: 1px solid gray;
+	width: 240px;
+	margin-bottom: 10px;
+	padding: 5px;
+	
+}
+
+.imagen{
+	background: url(../checkpequeño.png);
+	background: no-repeat;
+	background-position: 1000px 1000px; 
+	
+}
+
+.postcard_footer{
+	
+	padding: 10px;
+	text-align: center;
+
+}
+.postcard_footer input[type=submit]{
+	border-bottom: 3px solid gray;	
+
+
+}
+
+.postcard_footer input[type=submit]:focus{
+	background-color: #66ccff;	
+	width: 230px;
+
+}
+
+.postcard_footer input[type=submit]:hover{
+	cursor:pointer;
+
+}				
+
+}
+.postcard_footer .redondeado{
+    border-radius: 10px;   
+
+}
